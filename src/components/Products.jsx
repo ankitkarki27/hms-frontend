@@ -7,12 +7,12 @@ const LearnMoreButton = ({ onClick, className }) => {
       onClick={onClick}
       className={`
         group relative overflow-hidden rounded-full 
-        bg-brand-green text-white 
+        bg-brand-blue text-white 
         px-6 py-2 
         flex items-center justify-center
         transition duration-300 ease-out
-        hover:bg-brand-green/90
-        focus:outline-none focus:ring-2 focus:ring-brand-green focus:ring-offset-2
+        hover:bg-brand-blue/90
+        focus:outline-none focus:ring-2 focus:ring-brand-blue focus:ring-offset-2
         ${className}
       `}
     >
